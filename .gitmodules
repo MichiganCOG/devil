@@ -1,0 +1,6 @@
+[submodule "video-inpainting-evaluation"]
+	path = video-inpainting-evaluation
+	url = https://github.com/MichiganCOG/video-inpainting-evaluation.git
+[submodule "video-inpainting-projects/STTN"]
+	path = video-inpainting-projects/STTN
+	url = https://github.com/MichiganCOG/STTN.git

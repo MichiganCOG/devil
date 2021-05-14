@@ -1,0 +1,5 @@
+_BASE_: "./mask_rcnn_R_50_FPN_3x.yaml"
+MODEL:
+  WEIGHTS: "detectron2://COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x/137849600/model_final_f10217.pkl"
+  ROI_HEADS:
+    SCORE_THRESH_TEST: 0.5
