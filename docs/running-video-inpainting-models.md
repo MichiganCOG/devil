@@ -18,7 +18,7 @@ cd video-inpainting-projects/STTN
 conda create -p ./env -y
 conda activate ./env
 conda env update -f environment.yml
-wget -O checkpoints/sttn.pth https://umich.box.com/shared/static/7yqut3gaxz7860ce1ckyyu5lgma99kwe.pth
+wget -O checkpoints/sttn.pth https://web.eecs.umich.edu/~szetor/media/STTN/sttn.pth
 ```
 
 ### Run the video inpainting helper

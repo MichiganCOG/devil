@@ -17,5 +17,6 @@ inpainting-results-quantitative-summary.tsv
 old/
 slurm/logs/
 src/debug/
+test-data/
 video-lists/
 weights/
