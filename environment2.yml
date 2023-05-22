@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=10.1.243
+  - pip=21.0.1
+  - python=3.7
+  - pip:
+      - -r requirements.txt
