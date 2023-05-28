@@ -16,6 +16,8 @@ paper:
 }
 ```
 
+Note: This project is in maintenance mode due to the author graduating. Errors will be addressed to the greatest extent possible, but new features and upgrades will not.
+
 ## Setup
 
 ```bash
@@ -25,22 +27,23 @@ cd devil
 git submodule update --init video-inpainting-evaluation
 
 # Initialize the DEVIL Python environment
-conda create -p ./env -y
-conda activate ./env
-conda env update -f environment.yml
+conda env create -p ./env -f environment.yml
 
 # Initialize the video inpainting evaluation library
 cd video-inpainting-evaluation
 # Follow the library's installation instructions. If these are out-of-date, refer to their instructions.
-conda create -p ./env -y
+conda env create -p ./env -f environment.yml
 conda activate ./env
-conda env update -f environment.yml
 ./scripts/setup/install-flownet2.sh
 ./scripts/setup/download-models.sh
 ```
 
 The remaining instructions should be run from this project's root folder with the DEVIL conda environment activated 
 unless otherwise stated.
+
+```bash
+conda activate ./env
+```
 
 ## Quick Start
 
