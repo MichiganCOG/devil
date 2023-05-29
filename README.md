@@ -75,7 +75,7 @@ The contents of `inpainting-results-quantitative-summary.tsv` should now look si
 
 ```text
 Method	PSNR ▲	SSIM ▲	LPIPS ▼ 	PVCS ▼	FID ▼	VFID ▼	VFID (clips) ▼	Warp error (mask) ▼	PCons (PSNR, mask) ▲
-../inpainting-results-quantitative/devil/flickr-all_fvi-fgd-h/cpnet.npz	36.62 	0.9807	0.002363	 0.1462 	 4.85	0.0367	0.0622	0.000957	40.33
+../inpainting-results-quantitative/devil/flickr-all_fvi-fgd-h/cpnet.npz	36.62 	0.9807	0.027345	 0.1462 	 4.85	0.0367	0.0622	0.000957	40.33
 ```
 
 ## Running and Evaluating Custom Methods
